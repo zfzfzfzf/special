@@ -13,6 +13,7 @@ import java.lang.reflect.Method;
 public class ProxyFactory<T> implements MethodInterceptor {
 
     private T target;
+
     public ProxyFactory(T t){
         this.target=t;
     }

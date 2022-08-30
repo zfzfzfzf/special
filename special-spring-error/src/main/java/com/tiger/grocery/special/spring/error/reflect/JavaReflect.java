@@ -59,11 +59,7 @@ public class JavaReflect {
                 Object obj = aClass.newInstance();
                 Object result = method.invoke(obj, "zhangfeng");
                 System.out.println("buildPrivate-->result->"+result);
-
             }
-
-
-
         }
     }
 }
